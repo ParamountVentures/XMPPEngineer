@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>XMPPEngineer is a multiplatform, Windows and Android, .NET XMPP client assembly. XMPPEngineer supports IM functionality and a variety of XMPP extensions, is simple and is extensively tested against Android Xamarin. It is a fork of the currently frozen excellent S22.Xmpp project.</Description>
+    <Company>PGStath</Company>
+    <Copyright>XMPPEngineer Panagiotis Georgiou Stathopoulos 2015, S22.Xmpp Torben Könke 2013</Copyright>
+    <Authors />
+    <AssemblyVersion>1.0.2.2</AssemblyVersion>
+    <FileVersion>1.0.2.2</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ARSoft.Tools.Net" Version="2.2.6" />
+    <PackageReference Include="BouncyCastle" Version="1.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
